@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "sodium-blendingregistry",
+	"version": "${version}",
+	"name": "Sodium Blending Registry",
+	"description": "This is a plugin for sodium, that fixes a sodium \"color blending bug\", and adds a dynamic way to register blocks for blending.",
+	"authors": [
+		"devpelux"
+	],
+	"contact": {
+		"homepage": "https://github.com/devpelux/sodium-blendingregistry",
+		"sources": "https://github.com/devpelux/sodium-blendingregistry"
+	},
+	"license": "MIT",
+	"icon": "assets/sodium-blendingregistry/icon.png",
+	"environment": "client",
+	"mixins": [
+		"sodium-blendingregistry.mixins.json"
+	],
+	"depends": {
+	  	"sodium": "0.4.10+build.27",
+		"java": ">=17"
+	}
+}

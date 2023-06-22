@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "xyz.devpelux.sodium.blendingregistry.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"MixinBlockRenderCache"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
