@@ -1,0 +1,44 @@
+name: Bug report
+description: Submit a bug report
+assignees: ["devpelux"]
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill all the info below.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        Put a clear and concise description of the bug, and how to reproduce, add screenshots if are useful.
+        Add some examples, with example code, if possible.
+    validations:
+      required: true
+  - type: dropdown
+    id: release
+    attributes:
+      label: Affected releases
+      description: Select the releases affected.
+      options:
+        - 0.4.10.1
+      multiple: true
+    validations:
+      required: true
+  - type: dropdown
+    id: target
+    attributes:
+      label: Minecraft
+      description: Select the Minecraft release that you are using.
+      options:
+        - 1.19
+        - 1.19.1
+        - 1.19.2
+        - 1.19.3
+        - 1.19.4
+        - 1.20
+        - 1.20.1
+      multiple: true
+    validations:
+      required: false
