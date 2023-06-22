@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://github.com/devpelux/sodium-blendingregistry",
-		"sources": "https://github.com/devpelux/sodium-blendingregistry"
+		"sources": "https://github.com/devpelux/sodium-blendingregistry",
+		"issues": "https://github.com/devpelux/sodium-blendingregistry/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/sodium-blendingregistry/icon.png",
