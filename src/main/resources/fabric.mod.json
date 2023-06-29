@@ -19,7 +19,7 @@
 		"sodium-blendingregistry.mixins.json"
 	],
 	"depends": {
-	  	"sodium": "0.4.10+build.27",
+	  	"sodium": "0.4.10+build.24",
 		"java": ">=17"
 	}
 }
