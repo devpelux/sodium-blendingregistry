@@ -6,9 +6,9 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.Fluids;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.tag.TagKey;
+import net.minecraft.tag.TagKey;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 import java.util.Set;
 
@@ -16,8 +16,8 @@ import java.util.Set;
  * Manages a list of blocks and fluids that should use the color blending interpolation.
  */
 public class DefaultBlockColorSettings {
-	private static final TagKey<Block> MODDED_BLENDED_BLOCKS = TagKey.of(RegistryKeys.BLOCK, new Identifier("c", "blendable"));
-	private static final TagKey<Fluid> MODDED_BLENDED_FLUIDS = TagKey.of(RegistryKeys.FLUID, new Identifier("c", "blendable"));
+	private static final TagKey<Block> MODDED_BLENDED_BLOCKS = TagKey.of(Registry.BLOCK_KEY, new Identifier("c", "blendable"));
+	private static final TagKey<Fluid> MODDED_BLENDED_FLUIDS = TagKey.of(Registry.FLUID_KEY, new Identifier("c", "blendable"));
 
 	// Hardcoded to prevent breakage through tag replacements.
 	private static final Set<Block> BLENDED_BLOCKS = new ReferenceOpenHashSet<>(Sets.newHashSet(

@@ -3,7 +3,8 @@
 	"package": "xyz.devpelux.sodium.blendingregistry.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"MixinBlockRenderCache"
+	  "MixinChunkRenderCacheLocal",
+	  "MixinChunkRenderCacheShared"
 	],
 	"injectors": {
 		"defaultRequire": 1
