@@ -4,6 +4,10 @@ The bug is described in [issue 895](https://github.com/CaffeineMC/sodium-fabric/
 
 Additionally, it introduces a new tag `c:blendable` that allows custom blocks or fluids to be registered to use the Sodium blending system.
 
+> **❗IMPORTANT NOTE❗**  
+> **Starting from Sodium 0.5, this plugin is a part of Sodium itself, and is not required anymore.**  
+> **If you use this with Sodium 0.5 or newer releases the game will crash!**
+
 ## Examples of the bug
 ![img1](https://github.com/devpelux/sodium-blendingregistry/raw/d17a1e1ce1b994f4e662ad4223911563fe2a064e/assets/img1.png)
 
